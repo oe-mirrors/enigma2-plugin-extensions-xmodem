@@ -1,0 +1,605 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
+"Language-Team: Russian / asfill®/ Ukraine, Kherson>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "/etc/ppp/peers/"
+msgstr "/etc/ppp/peers/"
+
+msgid "1 час"
+msgstr "xModem"
+
+msgid "12 hours"
+msgstr "12 часов"
+
+msgid "15 min"
+msgstr "15 мин"
+
+msgid "2 hours"
+msgstr "2 часа"
+
+msgid "24 hours"
+msgstr "24 часа"
+
+msgid "30 min"
+msgstr "30 мин"
+
+msgid "4 hours"
+msgstr "4 часа"
+
+msgid "48 hours"
+msgstr "48 часов"
+
+msgid "APN"
+msgstr "Точка входа (APN)"
+
+msgid "AT-commands"
+msgstr "AT-команды"
+
+msgid "Abort"
+msgstr "Прервать"
+
+msgid "About plugin"
+msgstr "О плагине"
+
+msgid "Adv. pppd options"
+msgstr "Дополнительные pppd опции"
+
+msgid "Alternative DNS"
+msgstr "Альтернативные DNS-сервера"
+
+msgid "Autorestart modem"
+msgstr "Авторестарт модема"
+
+msgid "Autostart modem"
+msgstr "Автостарт модема"
+
+msgid "Bytes:"
+msgstr "Байты:"
+
+msgid "Cancel"
+msgstr "Отмена"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Connect"
+msgstr "Подключение"
+
+msgid "Connect statistics"
+msgstr "Статистика соединения"
+
+msgid "Connected :)"
+msgstr "Подключено :)"
+
+msgid "Connected!"
+msgstr "Подключено!"
+
+msgid "Connection Time:"
+msgstr "Длительность соединения:"
+
+msgid "Connection terminated."
+msgstr "Соединение завершено."
+
+msgid "Current Time:"
+msgstr "Текущее время:"
+
+msgid "Deinit string"
+msgstr "Строка деинициализации"
+
+msgid "Delay between attempts (sec)"
+msgstr "Задержка между попытками (сек)"
+
+msgid "Dialing:"
+msgstr "Соединение:"
+
+msgid "Disconnect"
+msgstr "Отключить"
+
+msgid "Do you really want to install the driver from the internet?"
+msgstr "Вы действительно хотите установить драйвера c интернета?"
+
+msgid "Errors:"
+msgstr "Ошибки:"
+
+msgid ""
+"Example:'-R -c /ect/usb_modeswitch.conf' or 'usb_modeswitch -v[Vendor ID] -p"
+"[Product ID] -c /usr/share/usb_modeswitch/[Vendor ID]:[Product ID]'"
+msgstr ""
+"Пример:'-R -c /ect/usb_modeswitch.conf' или 'usb_modeswitch -v[Vendor ID] -p"
+"[Product ID] -c /usr/share/usb_modeswitch/[Vendor ID]:[Product ID]'"
+
+msgid "Examples_AT-commands"
+msgstr "Примеры_AT-команд"
+
+msgid "Extended log"
+msgstr "Расширенный лог"
+
+msgid "Extended settings"
+msgstr "Расширенные настройки"
+
+msgid "Extra menu"
+msgstr "Экстра меню"
+
+msgid "FAILED"
+msgstr "ОШИБКА"
+
+msgid ""
+"Failed start modem!\n"
+"Please run modem manually..."
+msgstr ""
+"Ошибка старта модема!\n"
+"Пожалуйста, запустите модем вручную..."
+
+msgid "File /etc/ppp/peers/"
+msgstr "Файл /etc/ppp/peers/"
+
+msgid ""
+"Forced auto restarting modem!\n"
+"Please wait..."
+msgstr ""
+"Принудительный авторестарт модема!\n"
+"Пожалуйста, подождите..."
+
+msgid "Gateway:"
+msgstr "Шлюз:"
+
+msgid "Init string"
+msgstr "Строка инициализации"
+
+msgid "Install drivers"
+msgstr "Установка драйверов"
+
+msgid "Install drivers for PPP"
+msgstr "Инсталляция драйверов PPP"
+
+msgid "Install ppp drivers from feed"
+msgstr "Установка драйверов ppp с фида"
+
+msgid "Instruction for utility 'picocom'"
+msgstr "Иструкция для утилиты 'picocom'"
+
+msgid "Interface:"
+msgstr "Интерфейс:"
+
+msgid "Local IP:"
+msgstr "Локальный IP:"
+
+msgid "Log..."
+msgstr "Лог..."
+
+msgid "Login:"
+msgstr "Логин:"
+
+msgid "MRU size"
+msgstr "Размер MRU"
+
+msgid "MTU size"
+msgstr "Размер MTU"
+
+msgid "Nameservers:"
+msgstr "Сервера DNS:"
+
+msgid ""
+"Original developer and author code (2010):\n"
+"vlamo\n"
+"Further development (2012-2015):\n"
+"Dimitrij\n"
+msgstr ""
+"Разработчик и автор оригинального кода (2010):\n"
+"vlamo\n"
+"Дальнейшая разработка (2012-2015):\n"
+"Dimitrij\n"
+
+msgid "Packets:"
+msgstr "Пакеты:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Persistent dialing"
+msgstr "Постоянное соединение"
+
+msgid "Phone number"
+msgstr "Номер набора"
+
+msgid "Please select the necessary option..."
+msgstr "Выберите необходимое действие..."
+
+msgid "Please wait, install drivers..."
+msgstr "Пожалуйста, подождите - устанавливаем драйвера..."
+
+msgid ""
+"Plugin version: %s\n"
+"\n"
+msgstr ""
+"Версия плагина: %s\n"
+"\n"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Pppd options"
+msgstr "pppd опции"
+
+msgid ""
+"Press left/right button to change AT-commands, e.g. switch to only the modem "
+"(tools picocom) or mode 2G only (press OK)."
+msgstr ""
+"Нажмите кнопку влево/вправо для выбора AT-команды, допустим переключить в "
+"режим только модем (используйте утилиту picocom) или режим только 2G "
+"(нажмите OK)."
+
+msgid "Press left/right button to change connection type."
+msgstr "Нажмите кнопку влево/вправо для изменения стандарта подключения."
+
+msgid ""
+"Press left/right button to disable or enable and select extended log mode.\n"
+"You can view log on press TEXT button."
+msgstr ""
+"Нажмите кнопку влево/вправо для включения/отключения и выбора режима "
+"расширенного лога.\n"
+"Вы можете увидеть лог по нажатию кнопки TEXT."
+
+msgid ""
+"Press left/right button to disable or enable firewall. The rules iptables "
+"(see /usr/lib/enigma2/python/Plugins/Extensions/xModem/5iptables-rules_up & "
+"5iptables-rules_down) swill reject all INCOMING connections from the ppp0 "
+"interface, thus making your receiver invisible on the Internet."
+msgstr ""
+"Включение/выключение брандмауэра. Правила iptables (см. в /usr/lib/enigma2/"
+"python/Plugins/Extensions/xModem/5iptables-rules_up & 5iptables-rules_down) "
+"отклонят все входящие соединения от интерфейса ppp0, что делает Ваш ресивер "
+"невидимым в интернете."
+
+msgid "Press left/right button to enable/disable alternative DNS."
+msgstr ""
+"Нажмите кнопку влево/вправо для включения/отключения альтернативных DNS-"
+"серверов."
+
+msgid ""
+"Press left/right button to enable/disable autorun connection on start "
+"Enigma2."
+msgstr ""
+"Нажмите кнопку влево/вправо для включения/отключения автостарта соединения "
+"с  запуском Enigma2."
+
+msgid "Press left/right button to enable/disable extended settings."
+msgstr ""
+"Нажмите кнопку влево/вправо для включения/отключения дополнительных настроек."
+
+msgid ""
+"Press left/right button to enable/disable restarting softcam and cardserver "
+"after connection modem."
+msgstr ""
+"Нажмите кнопку влево/вправо для включения/отключения рестарта эмулятора "
+"после подключения модема."
+
+msgid ""
+"Press left/right button to enable/disable usage 'usb_modeswitch' command."
+msgstr ""
+"Нажмите кнопку влево/вправо для включения/отключения использования команд "
+"'usb_modeswitch'."
+
+msgid "Primary DNS"
+msgstr "Первичный DNS-сервер"
+
+msgid "Product ID"
+msgstr "Product ID"
+
+msgid "Quantity failed attempts"
+msgstr "Количество неудачных попыток"
+
+msgid "Really close without saving settings?"
+msgstr "Действительно закрыть без сохранения настроек?"
+
+msgid "Really saving settings and close?"
+msgstr "Действительно сохранить настройки и закрыть плагин?"
+
+msgid "Received"
+msgstr "Принято"
+
+msgid "Remote IP:"
+msgstr "Удалённый IP:"
+
+msgid "Request USSD"
+msgstr "USSD запрос"
+
+msgid "Restart softcam"
+msgstr "Рестарт эмулятора"
+
+msgid "Restart softcam (readme)"
+msgstr "Рестарт эмулятора (readme)"
+
+msgid "Run command 'dmesg'"
+msgstr "Выполнить команду 'dmesg'"
+
+msgid "Run command 'lsusb'"
+msgstr "Выполнить команду 'lsusb'"
+
+msgid "Run utility 'pppstats'"
+msgstr "Запуск утилиты 'pppstats'"
+
+msgid "Save/OK"
+msgstr "Сохранить/OK"
+
+msgid "Secondary DNS"
+msgstr "Вторичный DNS-сервер"
+
+msgid "Set AT-command as:"
+msgstr "Установить AT-команду как:"
+
+msgid ""
+"Set the time after which the modem will be forced automatically reconnected."
+msgstr ""
+"Установите время, через которое модем будет принудительно автоматически "
+"переподключен."
+
+msgid "Show APN list"
+msgstr "Посмотреть список APN"
+
+msgid "Show message before restart"
+msgstr "Показать сообщение перед рестартом"
+
+msgid ""
+"Show/Hide plugin xModem on extensions menu.\n"
+"Without restarting GUI."
+msgstr ""
+"Показать/скрыть плагин xМодем в меню дополнений (обычно - синяя кнопка).\n"
+"Без рестарта GUI."
+
+msgid ""
+"Show/Hide plugin xModem on mainmenu.\n"
+"Without restarting GUI."
+msgstr ""
+"Показать/скрыть плагин xМодем в главном меню.\n"
+"Без рестарта GUI."
+
+msgid ""
+"Specifies how many seconds to wait before re-initiating the link after it "
+"terminates."
+msgstr ""
+"Указывает сколько секунд ждать перед реинициализацией канала после его "
+"закрытия. Период holdoff не применяется, если канал был закрыт по причине "
+"простоя."
+
+msgid "Speed"
+msgstr "Скорость"
+
+msgid "Standard"
+msgstr "Стандарт подключения"
+
+msgid "Statistics"
+msgstr "Статистика"
+
+msgid ""
+"Terminate after n consecutive failed connection attempts.\n"
+"A value of 0 means no limit."
+msgstr ""
+"Прекратить попытки соединения после заданного числа последовательных "
+"ошибок.\n"
+"Значение 0 означает - без лимита."
+
+msgid "Transmited"
+msgstr "Передано"
+
+msgid "Use 'usb_modeswitch --help' command"
+msgstr "Выполнить команду 'usb_modeswitch --help'"
+
+msgid "Use firewall"
+msgstr "Использовать брандмауэр"
+
+msgid ""
+"Use number buttons on your remote control to change Access Point Name.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения точки входа "
+"(APN).\n"
+"Уточняйте у Вашего оператора связи."
+
+msgid ""
+"Use number buttons on your remote control to change Deinit string.\n"
+"Allowed only AT-commands (e.g.: ATH0)."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения строки "
+"деинициализации.\n"
+"Допускаются только AT-команды (например: ATH0)."
+
+msgid ""
+"Use number buttons on your remote control to change Init string.\n"
+"Allowed only AT-commands (e.g.: ATE1D2S0=0)."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения строки "
+"инициализации.\n"
+"Допускаются только AT-команды (например: ATE1D2S0=0)."
+
+msgid "Use number buttons on your remote control to change MRU size."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения Размера MRU."
+
+msgid "Use number buttons on your remote control to change MTU size."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения Размера MTU."
+
+msgid "Use number buttons on your remote control to change Primary DNS."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения первичного DNS-"
+"сервера."
+
+msgid ""
+"Use number buttons on your remote control to change Product ID.\n"
+"Allowed only 4 hexdigits, without prefix '0x'.\n"
+"Use 'lsusb' command to get Product ID value."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения Product ID.\n"
+"Допускаются только 4 знака,без префикса '0x'.\n"
+"Используйте команду 'lsusb' для получения значения Product ID."
+
+msgid "Use number buttons on your remote control to change Secondary DNS."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения вторичного DNS-"
+"сервера."
+
+msgid ""
+"Use number buttons on your remote control to change Vendor ID.\n"
+"Allowed only 4 hexdigits, without prefix '0x'.\n"
+"Use 'lsusb' command to get Vendor ID value."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения Vendor ID.\n"
+"Допускаются только 4 знака, без префикса '0x'.\n"
+"Используйте команду 'lsusb' для получения значения Vendor ID."
+
+msgid ""
+"Use number buttons on your remote control to change advanced pppd options.\n"
+"For help see pppd documentation..."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения дополнительных "
+"pppd опций.\n"
+"Уточняйте в документации pppd..."
+
+msgid ""
+"Use number buttons on your remote control to change dial-up number.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения номера набора.\n"
+"Уточняйте у Вашего оператора связи."
+
+msgid ""
+"Use number buttons on your remote control to change login for internet "
+"access.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения логина доступа к "
+"интернету.\n"
+"Уточняйте у Вашего оператора связи."
+
+msgid ""
+"Use number buttons on your remote control to change modem port.\n"
+"Use 'dmesg' command to get device path your modems."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения порта модема.\n"
+"Используйте команду 'dmesg' для нахождения точки установки Вашего модема."
+
+msgid ""
+"Use number buttons on your remote control to change password for internet "
+"access.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Используйте  цифровые кнопки Вашего пульта ДУ для изменения пароля доступа к "
+"интернету.\n"
+"Уточняйте у Вашего оператора связи."
+
+msgid ""
+"Use number buttons on your remote control to change speed of modem port."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения скорости порта "
+"модема."
+
+msgid ""
+"Use number buttons on your remote control to set peers file.\n"
+"Allowed only filename of the files located into /etc/ppp/peers directory."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для установки Файла peers.\n"
+"Допускается только имя файла расположенного в директории /etc/ppp/peers."
+
+msgid ""
+"Use number buttons on your remote control to set usb_modeswitch parameters. "
+"For help see usb_modeswitch documentation or use 'usb_modeswitch --help' "
+"command."
+msgstr ""
+"Используйте цифровые кнопки Вашего пульта ДУ для изменения параметров "
+"usb_modeswitch. Уточняйте в документации или используйте команду "
+"'usb_modeswitch --help'."
+
+msgid "Use usb_modeswitch"
+msgstr "Использовать usb_modeswitch"
+
+msgid ""
+"User script '10user_emurestart' for restarting softcam after connection "
+"modem need add to /usr/lib/enigma2/python/Plugins/Extensions/xModem"
+msgstr ""
+"Пользовательский скрипт '10user_emurestart' для рестарта эмулятора после "
+"подключения модема, необходимо добавить в /usr/lib/enigma2/python/Plugins/"
+"Extensions/xModem"
+
+msgid "Username"
+msgstr "Имя пользователя"
+
+msgid "Vendor ID"
+msgstr "Vendor ID"
+
+msgid ""
+"When enabled, do not exit after a connection is terminated, instead try to "
+"reopen the connection."
+msgstr ""
+"Если включено, не завершаться сразу после разрыва соединения, а попытаться "
+"установить его заново."
+
+msgid ""
+"When enabled, show display notification (timeout 15 sec.) before forced "
+"restart modem. Only use live tv."
+msgstr ""
+"Если включено, то будет показано предупреждение на экране (таймаут 15 сек.), "
+"перед рестартом модема. Только в режиме live тв."
+
+msgid "ZeroCD params"
+msgstr "Параметры ZeroCD"
+
+msgid "disabled"
+msgstr "отключено"
+
+msgid "enabled"
+msgstr "включено"
+
+msgid "execute"
+msgstr "выполнение..."
+
+msgid "full"
+msgstr "полный"
+
+msgid "full and timestamp"
+msgstr "полный с временными подробностями"
+
+msgid "internal modem"
+msgstr "внутренний модем"
+
+msgid "none"
+msgstr "ничего"
+
+msgid "plugin to connect to internet"
+msgstr "плагин подключения к интернету"
+
+msgid "short"
+msgstr "короткий"
+
+msgid "short and timestamp"
+msgstr "короткий с временными подробностями"
+
+msgid "usb_modeswitch params"
+msgstr "Параметры usb_modeswitch"
+
+msgid "use peers file"
+msgstr "использовать peers file"
+
+msgid "xModem"
+msgstr "xModem"
+
+msgid "xModem Connection Log..."
+msgstr "Лог подключения xModem..."
+
+msgid "xModem on extensions menu"
+msgstr "xModem в меню дополнений"
+
+msgid "xModem on mainmenu"
+msgstr "xModem в главном меню"
+
+msgid "xModem setup"
+msgstr "Настройки xModem"

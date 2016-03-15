@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# protect PPP connections from outside world
+
+# clear all
+iptables -F
+
+# default polices is to drop all except outgoing
+iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
+iptables -P FORWARD DROP
+
+# also drop invalid stuff
+iptables -A INPUT   -m state --state INVALID -j DROP
+iptables -A OUTPUT  -m state --state INVALID -j DROP
+iptables -A FORWARD -m state --state INVALID -j DROP
+
+# allow lo & eth0 interfaces
+iptables -A INPUT -i lo -j ACCEPT
+iptables -A INPUT -i eth0 -j ACCEPT
+
+# allow only established and related incoming packets on ppp
+iptables -A INPUT -i ppp+ -m state --state ESTABLISHED,RELATED -j ACCEPT

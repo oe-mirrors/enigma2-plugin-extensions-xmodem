@@ -1,0 +1,68 @@
+
+region="Russia" carrier="BeeLine" apn="internet.beeline.ru" user="beeline" password="beeline" phone="*99#"
+region="Russia" carrier="Megafon" apn="internet" phone="*99#"
+region="Russia" carrier="MTS" apn="internet.mts.ru" user="mts" password="mts" phone="*99#"
+region="Russia" carrier="NTK" apn="internet.ntc" user="ntc" password="ntc" phone="*99***1#"
+region="Russia" carrier="Smarts" apn="internet.smarts.ru" phone="*99#"
+
+region="Ukraine" carrier="Beeline" apn="internet.beeline.ua" phone="*99#"
+region="Ukraine" carrier="Djuice" apn="www.djuice.com.ua" phone="*99#"
+region="Ukraine" carrier="Kyivstar1" apn="www.ab.kyivstar.net" phone="*99#"
+region="Ukraine" carrier="Kyivstar2" apn="www.kyivstar.net" phone="*99#"
+region="Ukraine" carrier="Life" apn="internet" phone="*99#"
+region="Ukraine" carrier="Utel" apn="3g.utel.ua" phone="*99#"
+region="Ukraine" carrier="MTS" apn="www.umc.ua" phone="*99#"
+region="Ukraine" carrier="MTS(new)" apn="internet" phone="*99#"
+
+region="China" carrier="China Unicom" apn="3gnet" user="card" password="card" phone="*99#"
+
+region="Dubai" carrier="Etisalat" apn="internet.etisalat" phone="*99#"
+
+region="None" carrier="KT-HSDPA" apn="alwayson-r6.ktfwing.com" phone="*99#"
+
+region="Morocco" carrier="Maroc Telecom" apn="iam" user="wac" password="1987" phone="*99#"
+
+region="Egypt" carrier="Mobinil" apn="mobinilweb" phone="*99#"
+
+region="None" carrier="SKT3G" apn="web.sktelecom.com" phone="*99#"
+
+region="Saudi Arabia" carrier="STC" apn="jawalnet.com.sa" user="guest" password="guest" phone="*99#"
+
+region="Tunis" carrier="3G++" apn="internet.tn" user="" password="" phone="*99#"
+
+region="Azerbaijan" carrier="Azercell" apn="internet" user="guest" password="guest" phone="*99#"
+
+region="Egypt" carrier="Vodafone" apn="internet.vodafone.net" phone="*99#"
+
+region="Poland" carrier="T-Mobile PL" apn="internet" user="internet" password="internet" pin="" phone="*99#"
+
+region="Germany" carrier="Vodafone.de" apn="web.vodafone.de" user="internet" password="internet" phone="*99***1#"
+region="Germany" carrier="T-Mobile Internet" apn="internet.t-mobile" user="t-mobile" password="tm" phone="*99#"
+region="Germany" carrier="E plus Base" apn="internet.eplus.de" user="eplus" password="gprs" phone="*99#"
+region="Germany" carrier="O2" apn="internet" user="" password="" phone="*99***1#"
+region="Germany" carrier="MoobiCent" apn="volume.d2gprs.de" user="vodafone" password="vodafone" phone="*99#"
+region="Germany" carrier="1und1" apn="mail.partner.de" user="vf" password="vf" phone="*99#"
+
+region="Swiss" carrier="SUNRISE" apn="Internet" user="" password="" phone="*99#"
+
+region="Latvija" carrier="Tele2" apn="internet.tele2.lv" phone="*99#"
+region="Latvija" carrier="Tele2(data-only)" apn="data.tele2.lv" user="wap" password="wap" phone="*99#"
+region="Latvija" carrier="LMT(O!Karte)" apn="okarte.lmt.lv" phone="*99#"
+region="Latvija" carrier="LMT(Mobile Broadband)" apn="internet.lmt.lv" phone="*99#"
+region="Latvija" carrier="Bite(BiFri)" apn="internet" phone="*99#"
+
+region="Belarus" carrier="MTS" apn="mts" user="mts" password="mts" phone="*99#"
+region="Belarus" carrier="MTS" apn="mts-internet" user="mts" password="mts" phone="*99#"
+region="Belarus" carrier="Velcom" apn="vmi.velcom.by" phone="*99#"
+region="Belarus" carrier="Velcom" apn="wap.privet.by" phone="*99#"
+region="Belarus" carrier="Velcom" apn="web2.velcom.by" phone="*99#"
+region="Belarus" carrier="Velcom" apn="vmi.velcom.by**" phone="*99#"
+region="Belarus" carrier="Life" apn="internet.life.com.by" phone="*99#"
+
+region="Uzbekistan" carrier="BeeLine" apn="internet.beeline.uz" user="beeline" password="beeline" phone="*99#"
+region="Uzbekistan" carrier="UMS" apn="net.ums.uz" user="ums" password="ums" phone="*99#"
+region="Uzbekistan" carrier="Ucell Internet" apn="internet" phone="*99#"
+region="Uzbekistan" carrier="Uzmobile" apn="Internet.uzmobile.uz" user="uzmobile" password="" phone="*99#"
+region="Uzbekistan" carrier="PerfectumMobile" apn="perfectum@perfectum.com"  phone="#777"
+region="Uzbekistan" carrier="Uzmobile" apn="pinternet@uzcdma.uz"  phone="#777"
+

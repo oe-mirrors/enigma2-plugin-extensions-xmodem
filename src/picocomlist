@@ -1,0 +1,22 @@
+Instruction for execution AT-commands utility picocom (English language):
+1)Open telnet, .e.g PuTTY
+2)Enter    modprobe -r usbserial
+3)Enter    lsusb   see Vendor ID:Product ID modem
+4)Enter    modprobe usbserial vendor=[Vendor ID] product=[Product ID]
+5)Enter     picocom /dev/ttyUSB0 or /dev/ttyUSB1 or /dev/ttyUSB2 or /dev/ttyUSB3 or /dev/ttyUSB4
+6)Enter need AT-comand for your modem
+7)Exit for picocom  Ctrl+A+Q
+
+
+
+Иструкция для выполнения AT-команд через утилиту picocom (Русский язык):
+1)Откройте телнет, например PuTTY
+2)Введите    modprobe -r usbserial
+3)Введите    lsusb   смотрите Vendor ID:Product ID модема
+4))Введите   modprobe usbserial vendor=[Vendor ID] product=[Product ID]
+5))Введите   picocom /dev/ttyUSB0 или /dev/ttyUSB1 или /dev/ttyUSB2 или /dev/ttyUSB3 или /dev/ttyUSB4
+6)Введите необходимую AT-команду для вашего модема
+7)Для выхода из picocom, нажмите Ctrl+A+Q на клавиатуре
+
+
+

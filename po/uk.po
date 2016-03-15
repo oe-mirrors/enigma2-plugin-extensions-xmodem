@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xModem\n"
+"POT-Creation-Date: 2010-06-19 16:10+0300\n"
+"PO-Revision-Date: 2015-09-04 20:53+0300\n"
+"Last-Translator: Dimitrij <Dima-73@inbox.lv>\n"
+"Language-Team: dream.altmaster.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "/etc/ppp/peers/"
+msgstr "Файл /etc/ppp/peers/"
+
+msgid "APN"
+msgstr "Точка доступу(APN)"
+
+msgid "Abort"
+msgstr "Зупинить"
+
+msgid "Adv. pppd options"
+msgstr "Дод. опції для pppd"
+
+msgid "Alternative DNS"
+msgstr "Альтернативні DNS"
+
+msgid "Autostart modem"
+msgstr "Автостарт модема"
+
+msgid "Bytes:"
+msgstr "Байти:"
+
+msgid "Cancel"
+msgstr "Відмінить"
+
+msgid "Close"
+msgstr "Вихід"
+
+msgid "Connect"
+msgstr "З'єднати"
+
+msgid "Connect statistics"
+msgstr "Статистика з'єднання"
+
+msgid "Connected :)"
+msgstr "Підключено :)"
+
+msgid "Connected!"
+msgstr "Підключено!"
+
+msgid "Connection Time:"
+msgstr "Час з'єднання:"
+
+msgid "Connection terminated."
+msgstr "З'єднання розірване."
+
+msgid "Current Time:"
+msgstr "Поточний час:"
+
+msgid "Deinit string"
+msgstr "Рядок деініциалізації"
+
+msgid "Dialing:"
+msgstr "З'єднання:"
+
+msgid "Disconnect"
+msgstr "Відключить"
+
+msgid "Errors:"
+msgstr "Помилки:"
+
+msgid "Extended log"
+msgstr "Вести журнал з'єднання"
+
+msgid "Extended settings"
+msgstr "Дод.налаштування"
+
+msgid "FAILED"
+msgstr "ПОМИЛКА"
+
+msgid "File /etc/ppp/peers/"
+msgstr "Файл /etc/ppp/peers/"
+
+msgid "Gateway:"
+msgstr "Шлюз:"
+
+msgid "Init string"
+msgstr "Рядок ініциалізації"
+
+msgid "Interface:"
+msgstr "Інтерфейс:"
+
+msgid "Local IP:"
+msgstr "Локальний IP:"
+
+msgid "Login:"
+msgstr "Авторизація:"
+
+msgid "MRU size"
+msgstr "Розмір MRU"
+
+msgid "MTU size"
+msgstr "Розмір MTU"
+
+msgid "Nameservers:"
+msgstr "DNS сервера:"
+
+msgid "Packets:"
+msgstr "Пакети:"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "Phone number"
+msgstr "Номер дозвону"
+
+msgid "Port"
+msgstr "Порт"
+
+msgid "Pppd options"
+msgstr "Опції для pppd"
+
+msgid "Press left/right button to change connection type."
+msgstr "Натисніть left/right кнопку, щоб змінити тип з'єднання."
+
+msgid ""
+"Press left/right button to disable or enable and select extended log mode.\n"
+"You can view log on press TEXT button."
+msgstr ""
+"Натисніть left/right кнопку, щоб заборонити або включити та вибрати режим "
+"ведення журналу з'єднання.\n"
+"Щоб подивитись журнал поточного або попереднього з'єднання натисніть кнопку "
+"TEXT."
+
+msgid "Press left/right button to enable/disable alternative DNS."
+msgstr ""
+"Натисніть left/right кнопку, щоб застосувати або заборонити використання "
+"альтернативних DNS."
+
+msgid ""
+"Press left/right button to enable/disable autorun connection on start "
+"Enigma2."
+msgstr ""
+"Натисніть left/right кнопку, щоб включити або виключити автозапуск "
+"підключення на старті Enigma2 з поточними налаштуваннями."
+
+msgid "Press left/right button to enable/disable extended settings."
+msgstr ""
+"Натисніть left/right кнопку, щоб включити або виключити додаткові "
+"налаштування."
+
+msgid ""
+"Press left/right button to enable/disable usage 'usb_modeswitch' command."
+msgstr ""
+"Натисніть left/right кнопку, щоб застосувати або заборонити використання "
+"'usb_modeswitch' команди."
+
+msgid "Primary DNS"
+msgstr "Первинний DNS"
+
+msgid "Product ID"
+msgstr "Продукт ID"
+
+msgid "Received"
+msgstr "Прийнято"
+
+msgid "Remote IP:"
+msgstr "Віддалений IP:"
+
+msgid "Secondary DNS"
+msgstr "Вторинний DNS"
+
+msgid "Speed"
+msgstr "Швидкість"
+
+msgid "Standard"
+msgstr "Тип підключення"
+
+msgid "Transmited"
+msgstr "Передано"
+
+msgid ""
+"Use number buttons on your remote control to change Access Point Name.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб задати Access Point Name.\n"
+"Яка повинна бути назва точки доступу, з'ясовуйте у свого мобільного "
+"оператора."
+
+msgid ""
+"Use number buttons on your remote control to change Deinit string.\n"
+"Allowed only AT-commands (e.g.: ATH0)."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб задати рядок деініциалізації вашого "
+"модему.\n"
+"Вказуйте тільки AT-команди (наприклад, ATH0)."
+
+msgid ""
+"Use number buttons on your remote control to change Init string.\n"
+"Allowed only AT-commands (e.g.: ATE1D2S0=0)."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб задати рядок ініциалізації вашого "
+"модему.\n"
+"Вказуйте тільки AT-команди (наприклад, ATE1D2S0=0)."
+
+msgid "Use number buttons on your remote control to change MRU size."
+msgstr "Використовуйте цифрові кнопки, щоб змінити розмір MRU."
+
+msgid "Use number buttons on your remote control to change MTU size."
+msgstr "Використовуйте цифрові кнопки, щоб змінити розмір MTU."
+
+msgid "Use number buttons on your remote control to change Primary DNS."
+msgstr "Використовуйте цифрові кнопки, щоб змінити Первинний DNS."
+
+msgid ""
+"Use number buttons on your remote control to change Product ID.\n"
+"Allowed only 4 hexdigits, without prefix '0x'.\n"
+"Use 'lsusb' command to get Product ID value."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб задати Product ID.\n"
+"Вказуйте тільки 4 hex-цифри, без префіксу '0x'.\n"
+"Використовуйте 'lsusb' команду, щоб дізнатись значення Product ID."
+
+msgid "Use number buttons on your remote control to change Secondary DNS."
+msgstr "Використовуйте цифрові кнопки, щоб змінити Вторинний DNS."
+
+msgid ""
+"Use number buttons on your remote control to change Vendor ID.\n"
+"Allowed only 4 hexdigits, without prefix '0x'.\n"
+"Use 'lsusb' command to get Vendor ID value."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб задати Vendor ID.\n"
+"Вказуйте тільки 4 hex-цифри, без префіксу '0x'.\n"
+"Використовуйте 'lsusb' команду, щоб дізнатись значення Vendor ID."
+
+msgid ""
+"Use number buttons on your remote control to change advanced pppd options.\n"
+"For help see pppd documentation..."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб змінити додаткові опції для pppd.\n"
+"За допомогою звертайтесь до документації по pppd..."
+
+msgid ""
+"Use number buttons on your remote control to change dial-up number.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб змінити номер дозвону.\n"
+"Який повинен бути номер, з'ясовуйте у свого мобільного оператора."
+
+msgid ""
+"Use number buttons on your remote control to change login for internet "
+"access.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб змінити логін для доступу до Інтернету.\n"
+"Який повинен бути логін, з'ясовуйте у свого мобільного оператора."
+
+msgid ""
+"Use number buttons on your remote control to change modem port.\n"
+"Use 'dmesg' command to get device path your modems."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб змінити порт модему.\n"
+"Використовуйте 'dmesg' команду, щоб дізнатись device-шлях до вашого модему."
+
+msgid ""
+"Use number buttons on your remote control to change password for internet "
+"access.\n"
+"For help contact with your mobile operator."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб змінити пароль для доступу до Інтернету.\n"
+"Який повинен бути пароль, з'ясовуйте у свого мобільного оператора."
+
+msgid ""
+"Use number buttons on your remote control to change speed of modem port."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб змінити швидкість порту вашого модему."
+
+msgid ""
+"Use number buttons on your remote control to set peers file.\n"
+"Allowed only filename of the files located into /etc/ppp/peers directory."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб задати peers файл.\n"
+"Вказуйте тільки назву файлу, який повинен знаходитись в /etc/ppp/peers "
+"директорії."
+
+msgid ""
+"Use number buttons on your remote control to set usb_modeswitch parameters.\n"
+"For help see usb_modeswitch documentation or use 'usb_modeswitch --help' "
+"command."
+msgstr ""
+"Використовуйте цифрові кнопки, щоб налаштувати додаткові параметри для "
+"usb_modeswitch.\n"
+"За допомогою звертайтесь до документації по usb_modeswitch або виконайте "
+"команду 'usb_modeswitch --help'."
+
+msgid "Use usb_modeswitch"
+msgstr "Потрібен usb_modeswitch"
+
+msgid "Username"
+msgstr "Логін"
+
+msgid "Vendor ID"
+msgstr "Вендор ID"
+
+msgid "ZeroCD params"
+msgstr "Параметри ZeroCD"
+
+msgid "full"
+msgstr "повний"
+
+msgid "full and timestamp"
+msgstr "повний, за часом"
+
+msgid "internal modem"
+msgstr "внутрішній модем"
+
+msgid "none"
+msgstr "ні"
+
+msgid "plugin to connect to internet"
+msgstr "Плагін для з'эднання з Інтернетом"
+
+msgid "short"
+msgstr "стислий"
+
+msgid "short and timestamp"
+msgstr "стислий, за часом"
+
+msgid "usb_modeswitch params"
+msgstr "Дод.параметри для usb_modeswitch"
+
+msgid "use peers file"
+msgstr "використати peers-файл"
+
+msgid "xModem"
+msgstr "xModem"
+
+msgid "xModem Connection Log..."
+msgstr "xModem журнал з'эднання..."
