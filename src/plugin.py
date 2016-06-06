@@ -471,7 +471,8 @@ config.plugins.xModem.restart_softcam_preview = ConfigNothing()
 config.plugins.xModem.autorestart_modem = ConfigSelection(default = "0", choices = [("0", _("disabled")) , ("15", _("15 min")), ("30", _("30 min")), ("60", _("1 hour")), ("120", _("2 hours")),("240", _("4 hours")), ("720", _("12 hours")), ("1440", _("24 hours")), ("2880", _("48 hours"))])
 choices_list =[]
 huawei_list = [("AT^U2DIAG=0", _("Huawei AT^U2DIAG=0 (only modem mode)")),("AT^U2DIAG=1", _("Huawei AT^U2DIAG=1 (modem and CD-Rom mode)")),("AT^U2DIAG=255", _("Huawei AT^U2DIAG=255 (Modem+CD-Rom+Card-Reader Modem+ Factory Defaults)")), ("AT^U2DIAG=256", _("Huawei AT^U2DIAG=256 (Modem+Card-Reader Mode)")), ("AT^U2DIAG=257", _("Huawei AT^U2DIAG=257 (Disable Application Port)")), ("AT^U2DIAG=276", _("Huawei AT^U2DIAG=276 (Reset to factory Defaults)")), ("AT^U2DIAG=119", _("Huawei AT^U2DIAG=119 (return to HiLink mode)")), ("AT^SYSCFG=13,1,3fffffff,0,0", _("Huawei AT^SYSCFG=13,1,3fffffff,0,0 (only 2G mode)")), ("AT^SYSCFG=2,1,3fffffff,0,0", _("Huawei AT^SYSCFG=2,1,3fffffff,0,0 (preference 2G mode)")), ("AT^SYSCFG=14,2,3fffffff,0,1 ", _("Huawei  AT^SYSCFG=14,2,3fffffff,0,1 (only 3G mode)")),("AT^SYSCFG=2,2,3fffffff,0,1", _("Huawei AT^SYSCFG=2,2,3fffffff,0,1 (preference 3G mode)")), ("AT^SYSCFG=2,2,3fffff ff,0,2", _("Huawei AT^SYSCFG=2,2,3fffff ff,0,2 (enable mode 2G and 3G)")), ("AT^SYSCFG=13,1,3FFFFFFF,2,4", _("Huawei AT^SYSCFG=13,1,3FFFFFFF,2,4 (only mode GPRS/EDGE)")), ("AT^SYSCFG=14,2,3FFFFFFF,2,4", _("Huawei AT^SYSCFG=14,2,3FFFFFFF,2,4 (only mode 3G/WCDMA)")), ("AT^SYSCFG=2,1,3FFFFFFF,2,4", _("Huawei AT^SYSCFG=2,1,3FFFFFFF,2,4 (preference mode GPRS/EDGE)")), ("AT^SYSCFG=2,2,3FFFFFFF,2,4", _("Huawei AT^SYSCFG=2,2,3FFFFFFF,2,4 (preference mode 3G/WCDMA)"))]
-choices_list += huawei_list
+huawei_list_ext = [("AT^HSDPA=1", _("Huawei AT^HSDPA=1 (modem mode HSDPA on)")), ("AT^HSDPA=0", _("Huawei AT^HSDPA=0 (modem mode HSDPA off)")), ("AT^HSUPA=1", _("Huawei AT^HSUPA=1 (modem mode HSUPA on)")), ("AT^HSUPA=0", _("Huawei AT^HSUPA=0 (modem mode HSUPA off)")), ("AT^HSPA=0", _("Huawei AT^HSPA=0 ( mode WCDMA)")), ("AT^HSPA=1", _("Huawei AT^HSPA=1 ( mode HSDPA)")), ("AT^HSPA=2", _("Huawei AT^HSPA=2 (mode HSPA)")), ("AT^HSPA=3", _("Huawei AT^HSPA=3 (mode HSPA+)"))]
+choices_list += huawei_list + huawei_list_ext
 zte_list = [("AT%USBMODEM=0", _("ZTE AT%USBMODEM=0 (only modem mode)")),("AT%USBMODEM=1", _("ZTE AT%USBMODEM=1 (modem and CD-Rom mode)")),("AT+ZSNT=0,0,0", _("ZTE AT+ZSNT=0,0,0 (Network/auto mode)")), ("AT+ZSNT=0,0,1", _("ZTE AT+ZSNT=0,0,1 (auto GSM+WCDMA/preference GSM)")), ("AT+ZSNT=0,0,2", _("ZTE AT+ZSNT=0,0,2 (auto GSM+WCDMA/preference WCDMA)")), ("AT+ZSNT=1,0,0", _("ZTE AT+ZSNT=1,0,0 (auto/only GSM)")), ("AT+ZSNT=2,0,0", _("ZTE AT+ZSNT=2,0,0 (auto/only WCDMA)")), ("AT+ZSNT=0,1,0 ", _("ZTE AT+ZSNT=0,1,0 (manual/GSM+WCDMA)")), ("AT+ZSNT=1,1,0", _("ZTE AT+ZSNT=1,1,0 (manual/only GSM)")), ("AT+ZSNT=2,1,0", _("ZTE AT+ZSNT=2,1,0  (manual/only WCDMA)"))]
 choices_list += zte_list
 config.plugins.xModem.examples_commands = NoSave(ConfigSelection(choices = choices_list))
@@ -572,7 +573,6 @@ config.plugins.xModem.peer.prodid.setUseableChars(u'0123456789abcdef')
 config.plugins.xModem.peer.useums = ConfigYesNo(default=False)
 config.plugins.xModem.peer.umsparam = ConfigText('', fixed_size=False)
 
-plugin_version = '1.3'
 from autoRestartModemPoller import autoRestartModemPoller
 
 class ConnectInfo(Screen):
