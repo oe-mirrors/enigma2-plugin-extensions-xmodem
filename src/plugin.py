@@ -127,7 +127,7 @@ from enigma import eConsoleAppContainer, eTimer, gFont, gRGB, getDesktop
 from Components.Label import Label
 from Components.Button import Button
 from Components.ConfigList import ConfigListScreen
-from Components.config import config, ConfigSubsection, NoSave, ConfigSelection, getConfigListEntry, ConfigNothing, ConfigInteger, ConfigYesNo, ConfigText, ConfigPassword, ConfigIP, KEY_LEFT, KEY_RIGHT, KEY_0, KEY_DELETE, KEY_BACKSPACE
+from Components.config import config, configfile, ConfigSubsection, NoSave, ConfigSelection, getConfigListEntry, ConfigNothing, ConfigInteger, ConfigYesNo, ConfigText, ConfigPassword, ConfigIP, KEY_LEFT, KEY_RIGHT, KEY_0, KEY_DELETE, KEY_BACKSPACE
 from Components.ActionMap import NumberActionMap, ActionMap
 from Components.Language import language
 from Components.Sources.Boolean import Boolean
@@ -1428,6 +1428,7 @@ class ModemSetup(ConfigListScreen, Screen):
 				config.plugins.xModem.autorestart_modem.value = "0"
 			for x in self['config'].list:
 				x[1].save()
+			configfile.save()
 			if self.red_function == DISCONNECT:
 				if self.autorestart_modem != config.plugins.xModem.autorestart_modem.value:
 					global autorestartModem
