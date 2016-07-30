@@ -493,14 +493,14 @@ config.plugins.xModem.maxfail = ConfigInteger(default=2, limits=(0, 30))
 config.plugins.xModem.holdoff = ConfigInteger(default=60, limits=(0, 1800))
 config.plugins.xModem.adv_options = ConfigSelection([('persist', _('enabled')), ('nopersist', _('disabled'))], default='persist')
 
-config.plugins.xModem.dns1 = ConfigIP(default=[208,
- 67,
- 222,
- 222])
-config.plugins.xModem.dns2 = ConfigIP(default=[208,
- 67,
- 220,
- 220])
+config.plugins.xModem.dns1 = ConfigIP(default=[8,
+ 8,
+ 8,
+ 8])
+config.plugins.xModem.dns2 = ConfigIP(default=[8,
+ 8,
+ 4,
+ 4])
 config.plugins.xModem.showhints = ConfigYesNo(default=False)
 config.plugins.xModem.imod = ConfigSubsection()
 config.plugins.xModem.imod.username = ConfigText('arcor', fixed_size=False)
