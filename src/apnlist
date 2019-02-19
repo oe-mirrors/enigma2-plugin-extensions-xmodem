@@ -66,3 +66,6 @@ region="Uzbekistan" carrier="Uzmobile" apn="Internet.uzmobile.uz" user="uzmobile
 region="Uzbekistan" carrier="PerfectumMobile" apn="perfectum@perfectum.com"  phone="#777"
 region="Uzbekistan" carrier="Uzmobile" apn="pinternet@uzcdma.uz"  phone="#777"
 
+region="Iran" carrier="RighTel" apn="rightel" user="" password="" phone="*99#"
+region="Iran" carrier="Irancell" apn="mtnirancell" user="" password="" phone="*99#"
+region="Iran" carrier="IR-MCI" apn="mcinet" user="" password="" phone="*99***#"
